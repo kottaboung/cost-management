@@ -22,8 +22,8 @@ jobs:
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
       with:
-        username: ${{ 64200002@kmitl.ac.th }}
-        password: ${{ IDmain0980169099 }}
+        username: 64200002@kmitl.ac.th
+        password: IDmain0980169099
 
     - name: Build and push Docker image
       uses: docker/build-push-action@v4
